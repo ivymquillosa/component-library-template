@@ -1,0 +1,20 @@
+{
+  "name": "@temp/classnames",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@temp/eslint-config": "workspace:*",
+    "@temp/typescript-config": "workspace:*",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.2.0"
+  }
+}
